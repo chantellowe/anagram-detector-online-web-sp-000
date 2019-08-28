@@ -5,8 +5,7 @@ class Anagram
   
   def initialize(word)
     @word = word
-    @word = self.new 
-    @word
+    @word = self.new
   end
   
   
