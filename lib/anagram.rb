@@ -10,13 +10,8 @@ class Anagram
   
   def @word.match(word_array)
     word_array.collect do |element|
-      if element.split(" ").sort == @word.split.sort
-        true
-      else
-        false
-      end
+      element.split(" ").sort == @word.split.sort
     end
-    word_array.uniq
   end
   
   
