@@ -11,6 +11,4 @@ class Anagram
     word_array.select { |element| @word.split("").sort == element.split("").sort }
   end
   
-  
-  
 end
