@@ -16,7 +16,7 @@ class Anagram
         false
       end
     end
-    element.uniq 
+    word_array.uniq
   end
   
   
