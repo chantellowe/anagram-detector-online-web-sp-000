@@ -8,6 +8,10 @@ class Anagram
     @word = self.new
   end
   
+  def @word.match(word_array)
+    
+  end
+  
   
   
 end
