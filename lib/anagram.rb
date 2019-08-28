@@ -16,6 +16,7 @@ class Anagram
         false
       end
     end
+    element.uniq 
   end
   
   
